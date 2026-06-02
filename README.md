@@ -1,41 +1,40 @@
-# Tesco-Trolley-Decoder-exposing-hidden-spending-personalities-cooking-rhythms-and-health-blind-spot
-Took years of raw Tesco receipts → cleaned, de‑branded, and intelligently sorted into 25 custom categories → surfaced the weekly rhythm of spending, the dominance of cheese, and the gap between health intentions and reality.
-
-# 🛒 Tesco Trolley Decoder  
-**Decoding years of grocery receipts with NLP to expose hidden spending personalities, cooking rhythms, and health blind spots**
-
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+# Tesco Trolley Decoder
+Decoding years of grocery receipts with NLP to expose hidden spending personalities, cooking rhythms, and health blind spots
 
 ---
 
-## 📌 Overview
+## Overview
 
-We all shop for groceries. But what do our receipts **really** say about us?  
+We all shop for groceries. But what do years of a single customer’s receipts really reveal about their life?  
 
-**Tesco Trolley Decoder** takes years of real Tesco receipts — messy product names, timestamps, prices — and transforms them into a rich, data‑driven portrait of shopping behaviour. It cleans, classifies, and analyses **every single product** using a custom NLP pipeline, then surfaces the hidden stories:
+Tesco Trolley Decoder took multiple years of real Tesco receipts — messy product names, timestamps, prices — and transformed them into a rich, data‑driven portrait of that individual’s shopping behaviour. Every product was cleaned, classified, and analysed using a custom NLP pipeline, surfacing the hidden stories behind the trolley.
 
-- Which categories eat up the most money  
-- How spending pulses through the week  
-- Whether Saturday is truly for cooking or just for crisps  
-- The true **health profile** of your food basket  
-
-The result is a set of  story‑driven charts that turn receipts into a mirror of everyday life.
+The result is a set of story‑driven charts that turn years of mundane receipts into a revealing mirror of everyday habits — and into a strategic playbook for how a retailer might better serve a loyal customer.
 
 ---
 
-## ✨ Key Insights You'll Uncover
+## Key Insights Uncovered (Customer)
 
-- **Category Spend Ranking** – Where the money really goes (cheese > milk + yoghurt combined?)  
-- **Sub‑Category Breakdowns** – Within *Dairy*, does “Sweet Dairy & Desserts” dominate over “Yoghurt”?  
-- **Weekly Rhythm** – How meat and dairy purchases peak and trough across Monday–Sunday  
-- **Saturday Cooking Profile** – What percentage of Saturday spending is on cooking ingredients  
-- **Health Composition** – A 100‑point stacked bar showing the proportion of *healthy*, *moderate*, and *unhealthy* food spend  
-- **Store Loyalty** – Top 10 Tesco stores by total spend and visit frequency  
+- Temporal spending patterns reveal a routine‑driven structure, likely shaped around work and home location.  
+- Store concentration implies strong geographic attachment and predictable routes — especially to the Southwark superstore.  
+- Category analysis shows the customer enjoys savoury foods moderately high in fat, with a clear preference for red meat and cheese.  
+- Despite those strong savoury preferences, overall purchasing behaviour still suggests moderate dietary balance — the basket is not extreme.
 
-All of this is built from **raw receipt data** without any pre‑existing labels or machine‑learning training — the classification is entirely rule‑based NLP, which makes the methodology transparent, interpretable, and surprisingly accurate.
+---
 
+## Potential Commercial Value for Tesco
 
+- Highly suitable for personalised promotions due to consistent and predictable shopping routines.  
+- Strong Southwark superstore affinity creates an opportunity for store‑specific offers and localised campaigns.  
+- Weekend purchasing behaviour enables time‑targeted recommendations and promotions.  
+- A food‑centric basket composition creates natural cross‑sell opportunities within complementary grocery categories.  
+- Established preferences support tailored product recommendations and basket‑expansion strategies.  
+
+---
+
+All of this was built from raw receipt data without any pre‑existing labels or machine‑learning training — the classification is entirely rule‑based NLP, making the methodology transparent, interpretable, and surprisingly accurate.
+
+##Please see python code below:
 
 
 import re
