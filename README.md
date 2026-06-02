@@ -1,13 +1,13 @@
-# Tesco Trolley Decoder
-Decoding years of grocery receipts with Natural Language Processing to expose hidden spending personalities, cooking rhythms, and health blind spots
+# London Trolley Decoder
+Decoding years of anonymised London customer receipts with NLP to expose hidden spending personalities, cooking rhythms, and health blind spots
 
 ---
 
 ## Overview
 
-We all shop for groceries. But what do years of a single customer’s receipts really reveal about their life?  
+We all shop for groceries. But what do years of a single anonymised London customer’s receipts really reveal about their life?  
 
-Tesco Trolley Decoder took multiple years of real Tesco receipts — messy product names, timestamps, prices — and transformed them into a rich, data‑driven portrait of that individual’s shopping behaviour. Every product was cleaned, classified, and analysed using a custom NLP pipeline, surfacing the hidden stories behind the trolley.
+London Grocery Trolley Decoder took multiple years of real‑world grocery transaction data — messy product names, timestamps, prices — and transformed them into a rich, data‑driven portrait of that individual’s shopping behaviour. Every product was cleaned, classified, and analysed using a custom NLP pipeline, surfacing the hidden stories behind the trolley.
 
 The result is a set of story‑driven charts that turn years of mundane receipts into a revealing mirror of everyday habits — and into a strategic playbook for how a retailer might better serve a loyal customer.
 
@@ -16,16 +16,16 @@ The result is a set of story‑driven charts that turn years of mundane receipts
 ## Key Insights Uncovered (Customer)
 
 - Temporal spending patterns reveal a routine‑driven structure, likely shaped around work and home location.  
-- Store concentration implies strong geographic attachment and predictable routes — especially to the Southwark superstore.  
+- Store concentration implies strong geographic attachment and predictable routes — especially to a major London superstore.  
 - Category analysis shows the customer enjoys savoury foods moderately high in fat, with a clear preference for red meat and cheese.  
 - Despite those strong savoury preferences, overall purchasing behaviour still suggests moderate dietary balance — the basket is not extreme.
 
 ---
 
-## Potential Commercial Value for Tesco
+## Potential Commercial Value for a Grocery Retailer
 
 - Highly suitable for personalised promotions due to consistent and predictable shopping routines.  
-- Strong Southwark superstore affinity creates an opportunity for store‑specific offers and localised campaigns.  
+- Strong superstore affinity creates an opportunity for store‑specific offers and localised campaigns.  
 - Weekend purchasing behaviour enables time‑targeted recommendations and promotions.  
 - A food‑centric basket composition creates natural cross‑sell opportunities within complementary grocery categories.  
 - Established preferences support tailored product recommendations and basket‑expansion strategies.  
@@ -33,6 +33,13 @@ The result is a set of story‑driven charts that turn years of mundane receipts
 ---
 
 All of this was built from raw receipt data without any pre‑existing labels or machine‑learning training — the classification is entirely rule‑based NLP, making the methodology transparent, interpretable, and surprisingly accurate.
+
+[Download the PowerPoint presentation slides](https://github.com/rbanl/.../Tesco%20Customer%20Analysis.pptx)
+
+## Python Code
+
+```python
+# Paste your full analysis script here
 
 [Download the PowerPoint presentation slides]https://github.com/rbanl/Tesco-Trolley-Decoder-exposing-hidden-spending-personalities-cooking-rhythms-and-health-blind-spot/raw/refs/heads/main/Tesco%20Customer%20Analysis.pptx
 
